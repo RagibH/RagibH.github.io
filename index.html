@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragib Hasan | Academic Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">
+                    <img src="assets/images/profile.png" alt="Logo" class="brand-logo">
+                    <span>Ragib Hasan</span>
+                </a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="academic.html">Academic Results</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cover Photo Section -->
+    <header class="cover-section">
+        <!-- Cover Photo - displayed fully and as-is -->
+        <img src="assets/images/cover.png" alt="Academic Cover Photo" class="cover-image">
+    </header>
+
+    <!-- Profile & Introduction Section -->
+    <section class="profile-intro">
+        <div class="container">
+            <div class="intro-content">
+                <!-- Profile Photo -->
+                <div class="profile-container">
+                    <div class="profile-img">
+                        <img src="assets/images/profile.png" alt="Ragib Hasan">
+                    </div>
+                </div>
+                
+                <!-- Name -->
+                <!---- <h1 class="profile-name">Ragib Hasan</h1>-->
+                
+                <!-- Academic Identity -->
+                <div class="academic-identity">
+                    <div class="identity-line">Undergraduate Research Enthusiast</div>
+                    <div class="identity-line">Machine Learning | Computer Vision | NLP</div>
+                    <div class="identity-line">IEEE Conference Author</div>
+                </div>
+                
+                <!-- Description -->
+                <p class="intro-description">
+                    Computer Science & Engineering student at Sylhet Engineering College with strong research focus, 
+                    publications.
+                </p>
+                
+                <!-- Buttons -->
+                <div class="intro-buttons">
+                    <a href="research.html" class="btn btn-primary">
+                        <i class="fas fa-microscope"></i> View Research
+                    </a>
+                    <a href="documents.html" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Highlights -->
+    <section class="highlights">
+        <div class="container">
+            <h2 class="section-title">Academic Highlights</h2>
+            <div class="highlight-grid">
+                <div class="highlight-card fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>CGPA 3.96/4.00</h3>
+                    <p>Consistent academic excellence across all semesters</p>
+                </div>
+                <div class="highlight-card fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>8+ Research Works</h3>
+                    <p>Publications, under review, and ongoing projects</p>
+                </div>
+                <div class="highlight-card fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>IEEE Author</h3>
+                    <p>Papers accepted at ICCIT 2025 conference</p>
+                </div>
+                <div class="highlight-card fade-in">
+                    <div class="highlight-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Leadership Roles</h3>
+                    <p>Multiple organizational and leadership positions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Research -->
+    <section class="recent-research">
+        <div class="container">
+            <h2 class="section-title">Featured Research</h2>
+            <div class="research-cards">
+                <div class="research-card slide-up">
+                    <div class="research-header">
+                        <span class="research-status accepted">Accepted</span>
+                        <h3>ChakmaCNN: Pronunciation-Aware CNN</h3>
+                    </div>
+                    <p class="research-conference">IEEE ICCIT 2025 (First Author)</p>
+                    <p class="research-desc">
+                        A novel CNN architecture for handwritten Chakma script recognition with pronunciation awareness.
+                    </p>
+                    <a href="research.html#accepted" class="research-link">View Details →</a>
+                </div>
+                <div class="research-card slide-up">
+                    <div class="research-header">
+                        <span class="research-status under-review">Under Review</span>
+                        <h3>Identifying Dominant Pollutants Through XAI</h3>
+                    </div>
+                    <p class="research-conference">First Author</p>
+                    <p class="research-desc">
+                        Using eXplainable AI to identify and analyze dominant pollutants in Bangladeshi cities.
+                    </p>
+                    <a href="research.html#under-review" class="research-link">View Details →</a>
+                </div>
+                <div class="research-card slide-up">
+                    <div class="research-header">
+                        <span class="research-status ongoing">Ongoing</span>
+                        <h3>Handwritten Medicine Name Classification</h3>
+                    </div>
+                    <p class="research-conference">Own Dataset (300 classes)</p>
+                    <p class="research-desc">
+                        Large-scale dataset collection and classification of handwritten medicine names.
+                    </p>
+                    <a href="research.html#ongoing" class="research-link">View Details →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Ragib Hasan</h3>
+                    <p>Undergraduate CSE Student | Researcher | Academic Enthusiast</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="academic.html">Academic Results</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ragib-hasan-828316317" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/RagibH" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Ragib Hasan. All rights reserved.</p>
+                <p>Designed for academic and research purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    <style>
+        /* ===== HOME PAGE SPECIFIC STYLES ===== */
+        
+        /* Cover Photo Section */
+        .cover-section {
+            width: 100vw; /* full viewport width */
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            margin-top: 60px;
+            overflow: hidden;
+        }
+        
+        .cover-image {
+            width: 100%;
+            height: 70vh;            /* controls vertical height */
+            display: block;
+            object-fit: cover;       /* IMPORTANT */
+        }
+        /* Profile & Introduction Section */
+        .profile-intro {
+            background-color: white;
+            padding: 4rem 0;
+        }
+        
+        .intro-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Profile Container */
+        .profile-container {
+            margin-bottom: 2rem;
+        }
+        
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 3px solid #f0f0f0;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.02);
+        }
+        
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* Name */
+        .profile-name {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            letter-spacing: 0.5px;
+        }
+        
+        /* Academic Identity */
+        .academic-identity {
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .identity-line {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: var(--gray-color);
+            letter-spacing: 0.3px;
+            line-height: 1.4;
+        }
+        
+        /* Description */
+        .intro-description {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: var(--gray-color);
+            margin-bottom: 2.5rem;
+            padding: 0 1rem;
+        }
+        
+        /* Buttons */
+        .intro-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+        }
+        
+        .intro-buttons .btn {
+            padding: 0.9rem 2.2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            min-width: 180px;
+            text-align: center;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+            color: white;
+            border: 2px solid var(--secondary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--secondary-color);
+            border: 2px solid var(--secondary-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--secondary-color);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile-name {
+                font-size: 2.2rem;
+            }
+            
+            .identity-line {
+                font-size: 1rem;
+            }
+            
+            .intro-description {
+                font-size: 1rem;
+                padding: 0;
+            }
+            
+            .profile-img {
+                width: 160px;
+                height: 160px;
+            }
+            
+            .cover-image {
+                max-height: 400px;
+            }
+            
+            .intro-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .intro-buttons .btn {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .profile-name {
+                font-size: 1.8rem;
+            }
+            
+            .profile-img {
+                width: 140px;
+                height: 140px;
+            }
+            
+            .intro-description {
+                font-size: 0.95rem;
+            }
+            
+            .academic-identity {
+                gap: 0.3rem;
+            }
+            
+            .cover-image {
+                max-height: 300px;
+            }
+            
+            .profile-intro {
+                padding: 3rem 0;
+            }
+        }
+    </style>
+</body>
+</html>

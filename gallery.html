@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Ragib Hasan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (Existing - Unchanged) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">
+                    <img src="assets/images/profile.png" alt="Logo" class="brand-logo">
+                    <span>Ragib Hasan</span>
+                </a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="academic.html">Academic Results</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Visual Academic Narrative</h1>
+            <p>A Documentary Journey Through Research, Conferences, and Creative Expression</p>
+        </div>
+    </header>
+
+    <!-- Gallery Navigation -->
+    <div class="gallery-navigation">
+        <div class="container">
+            <nav class="gallery-nav">
+                <a href="#conference" class="nav-item">
+                    <i class="fas fa-users"></i>
+                    <span>Conference</span>
+                </a>
+                <a href="#research" class="nav-item">
+                    <i class="fas fa-microscope"></i>
+                    <span>Research</span>
+                </a>
+                <a href="#certificates" class="nav-item">
+                    <i class="fas fa-award"></i>
+                    <span>Certificates</span>
+                </a>
+                <a href="#medals" class="nav-item">
+                    <i class="fas fa-medal"></i>
+                    <span>Medals</span>
+                </a>
+                <a href="#photography" class="nav-item">
+                    <i class="fas fa-camera"></i>
+                    <span>Photography</span>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Close lightbox">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-nav prev" aria-label="Previous image">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-nav next" aria-label="Next image">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="lightbox-image-container">
+                <img class="lightbox-image" src="" alt="">
+            </div>
+            <div class="lightbox-info">
+                <h3 class="lightbox-title"></h3>
+                <p class="lightbox-description"></p>
+                <div class="lightbox-counter"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Content -->
+    <main class="gallery-main">
+        <div class="container">
+            <!-- Conference Section -->
+            <section id="conference" class="gallery-section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="section-title-content">
+                        <h2>IEEE ICCIT 2025 Conference</h2>
+                        
+                    </div>
+                </div>
+                
+                <div class="section-description">
+                    <p>Documenting my participation and presentation at the IEEE International Conference on Computer and Information Technology 2025, where I presented our research paper "ChakmaCNN: A Pronunciation-Aware CNN for Handwritten Chakma Script Recognition." These moments capture the essence of academic discourse, peer review, and scholarly networking at an international platform.</p>
+                </div>
+
+                <div class="masonry-grid">
+                    <div class="masonry-item wide" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-1.jpeg', 'IEEE ICCIT 2025 - Day 1',)">
+                        <img src="assets/images/gallery/conference/iccit-2025-1.jpeg" alt="IEEE ICCIT 2025 - Day 1" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>Conference Day 1</h3>
+                            <p>Inauguration & Keynote Sessions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="masonry-item" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-2.jpeg', 'Presenting ChakmaCNN Research Paper', )">
+                        <img src="assets/images/gallery/conference/iccit-2025-2.jpeg" alt="Presenting ChakmaCNN Research Paper" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>Research Presentation</h3>
+                            <p>Presenting ChakmaCNN</p>
+                        </div>
+                    </div>
+                    
+                    <div class="masonry-item" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-3.jpeg', 'IEEE ICCIT 2025 - Day 2',)">
+                        <img src="assets/images/gallery/conference/iccit-2025-3.jpeg" alt="IEEE ICCIT 2025 - Day 2" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>Conference Day 2</h3>
+                            <p>Technical Sessions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="masonry-item tall" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-4.jpeg', 'With Authors and Professors', 'Engaging with other-authors and professors in the presentation room following our research presentation')">
+                        <img src="assets/images/gallery/conference/iccit-2025-4.jpeg" alt="With Authors and Professors" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>Academic Discourse</h3>
+                            <p>With presentation authors & professors</p>
+                        </div>
+                    </div>
+                    
+                    <div class="masonry-item" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-5.jpeg', 'Signing the Memory Wall', 'Contributing to the conference memory wall - a tradition of scholarly participation and community building')">
+                        <img src="assets/images/gallery/conference/iccit-2025-5.jpeg" alt="Signing the Memory Wall" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>Memory Wall</h3>
+                            <p>Conference tradition</p>
+                        </div>
+                    </div>
+                    
+                    <div class="masonry-item wide" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-6.jpeg', 'With Prof. Dr. Mohammed Abdur Rahman', 'Discussion with distinguished professor following keynote session and technical insights')">
+                        <img src="assets/images/gallery/conference/iccit-2025-6.jpeg" alt="With Prof. Dr. Mohammed Abdur Rahman" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>With Prof. M.A. Rahman</h3>
+                            <p>Post keynote session discussion</p>
+                        </div>
+                    </div>
+                    
+                    <div class="masonry-item" onclick="openLightbox('assets/images/gallery/conference/iccit-2025-7.jpeg', 'With Prof. Dr. Khan A. Wahid', 'Discussion with distinguished professor following keynote session and technical insights')">
+                        <img src="assets/images/gallery/conference/iccit-2025-7.jpeg" alt="With Prof. Dr. Khan A. Wahid" loading="lazy">
+                        <div class="image-overlay">
+                            <h3>With Prof. K.A. Wahid</h3>
+                            <p>Post keynote session discussion</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Section -->
+            <section id="research" class="gallery-section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="section-title-content">
+                        <h2>Research Documentation</h2>
+                        <p class="section-subtitle">Fieldwork and Dataset Collection for Computer Vision Research</p>
+                    </div>
+                </div>
+                
+                <div class="section-description">
+                    <p>Visual documentation of the rigorous fieldwork undertaken for my undergraduate thesis and ongoing journal research. These images represent the meticulous process of collecting vehicle image datasets under diverse adverse conditions—a critical component of developing robust computer vision models for real-world applications in transportation systems.</p>
+                </div>
+
+                <div class="research-grid">
+                    <div class="research-card" onclick="openLightbox('assets/images/gallery/research/dataset-collection-1.jpeg', 'Dataset Collection - Fieldwork 1', 'Initial data collection setup for vehicle images under rainy weather-1')">
+                        <div class="research-image">
+                            <img src="assets/images/gallery/research/dataset-collection-1.jpeg" alt="Dataset Collection - Fieldwork 1" loading="lazy">
+                            <div class="research-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <div class="research-info">
+                            <h3>>Data collection in Tilaghor-1</h3>
+                            <p>Initial data gathering methodology</p>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card" onclick="openLightbox('assets/images/gallery/research/dataset-collection-2.jpeg', 'Dataset Collection - Fieldwork 2', 'Capturing vehicle images during challenging weather conditions for robust model training')">
+                        <div class="research-image">
+                            <img src="assets/images/gallery/research/dataset-collection-2.jpeg" alt="Dataset Collection - Fieldwork 2" loading="lazy">
+                            <div class="research-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <div class="research-info">
+                            <h3>>Data collection in Tilaghor-2</h3>
+                            <p>Adverse condition documentation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card" onclick="openLightbox('assets/images/gallery/research/dataset-collection-3.jpeg', 'Dataset Collection - Fieldwork 3',)">
+                        <div class="research-image">
+                            <img src="assets/images/gallery/research/dataset-collection-3.jpeg" alt="Dataset Collection - Fieldwork 3" loading="lazy">
+                            <div class="research-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <div class="research-info">
+                            <h3>>Data collection in Farmgate (expressway)</h3>
+                            <p>Multi-angle image capture</p>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card" onclick="openLightbox('assets/images/gallery/research/dataset-collection-4.jpeg', 'Dataset Collection - Fieldwork 4',)">
+                        <div class="research-image">
+                            <img src="assets/images/gallery/research/dataset-collection-4.jpeg" alt="Dataset Collection - Fieldwork 4" loading="lazy">
+                            <div class="research-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <div class="research-info">
+                            <h3>>Data collection in ECb Chattar</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certificates Section -->
+            <section id="certificates" class="gallery-section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="section-title-content">
+                        <h2>Academic Certificates</h2>
+                        <p class="section-subtitle">Documentation of Scholarly Recognition and Participation</p>
+                    </div>
+                </div>
+                
+                <div class="section-description">
+                    <p>This collection represents formal recognition of academic participation, achievement, and professional development. From international conference certifications to institutional acknowledgments, these documents chronicle milestones in my academic journey and commitment to scholarly engagement.</p>
+                </div>
+
+                <div class="certificates-grid">
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/iccit-certificate.jpeg', 'IEEE ICCIT 2025 Certificate', 'Official certificate of participation and paper presentation at IEEE International Conference on Computer and Information Technology 2025')">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/iccit-certificate.jpeg" alt="IEEE ICCIT 2025 Certificate" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>IEEE ICCIT 2025</h3>
+                            <p>International Conference Participation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/cse fest hackathon.jpeg', 'CSE Fest Hackathon 2022 Certificate', 'Participation certificate from CSE Fest 2022 at Sylhet Engineering College, recognizing involvement in competitive programming and innovation')">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/cse fest hackathon.jpeg" alt="CSE Fest Hackathon Certificate" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>CSE Fest Hackathon</h3>
+                            <p>Hackathon Competition 2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/mcpsc-certificate-1.jpeg', 'Conference by Dr. Muhammad Kaykobad', 'Participation certificate from academic conference featuring Dr. Muhammad Kaykobad, renowned computer scientist and algorithm specialist')">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/mcpsc-certificate-1.jpeg" alt="Conference by Dr. Muhammad Kaykobad" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Dr. Kaykobad's Conference</h3>
+                            <p>Participation in confrences of reknowned professors</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/mcpsc-certificate-2.jpeg', 'Parade Flagman Recognition', 'Recognition certificate for exemplary performance as parade flagman, demonstrating discipline and ceremonial precision')">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-flag"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/mcpsc-certificate-2.jpeg" alt="Parade Flagman Recognition" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Parade Flagman</h3>
+                            <p>Ceremonial Recognition</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/cambrian-1.jpeg', 'Cambrian School PSC Certificate',)">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/cambrian-1.jpeg" alt="Student award fro PSC-2012 by Cambrian" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Student award - PSC</h3>
+                            <p>Certificate for good performance in PSC</p>
+                        </div>
+                    </div>
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/os.png', 'Former organizing secretary',)">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/os.png" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Former organizing secretary</h3>
+                            <p>Was organizing secretary in CSE Society, SEC</p>
+                        </div>
+                    </div>
+                    <div class="certificate-card" onclick="openLightbox('assets/images/gallery/certificates/supervised.png', 'Course completion',)">
+                        <div class="certificate-frame">
+                            <div class="certificate-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <img src="assets/images/gallery/certificates/supervised.png" alt="Supervised learning course completion certificate" loading="lazy">
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Course completion</h3>
+                            <p>Supervised Learning, Coursera</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Medals Section -->
+            <section id="medals" class="gallery-section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="section-title-content">
+                        <h2>Achievement Medals</h2>
+                        <p class="section-subtitle">Tangible Recognition of Academic and Extracurricular Excellence</p>
+                    </div>
+                </div>
+                
+                <div class="section-description">
+                    <p>This collection represents physical embodiments of achievement across academic and athletic domains. Each medal symbolizes dedication, perseverance, and excellence—qualities that extend beyond the classroom into holistic personal development.</p>
+                </div>
+
+                <div class="medals-display">
+                    <div class="medal-showcase" onclick="openLightbox('assets/images/gallery/medals/medals-1.png', 'Academic and Sports Medals Collection', 'Collection of medals recognizing achievements in academic competitions, sports events, and extracurricular excellence')">
+                        <div class="medal-container">
+                            <img src="assets/images/gallery/medals/medals-1.png" alt="Academic and Sports Medals Collection" loading="lazy">
+                            <div class="medal-glow"></div>
+                        </div>
+                        <div class="medal-info">
+                            <h3>Achievement Collection</h3>
+                            <p>Academic & Sports Recognition</p>
+                            <div class="medal-count">
+                                <i class="fas fa-medal"></i>
+                                <span>Multiple Awards</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Photography Section -->
+            <section id="photography" class="gallery-section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="section-title-content">
+                        <h2>Creative Photography</h2>
+                        <p class="section-subtitle">Visual Exploration Through Lens and Perspective</p>
+                    </div>
+                </div>
+                
+                <div class="section-description">
+                    <p>Beyond academic rigor lies the creative discipline of photography—a pursuit that cultivates attention to detail, composition, and narrative. This collection represents my visual journal, exploring diverse subjects from architectural symmetry to natural ephemera, each frame a study in perception and aesthetic consideration.</p>
+                </div>
+
+                <!-- Beach Photography -->
+                <div class="photography-category">
+                    <h3><i class="fas fa-umbrella-beach"></i> Coastal Perspectives</h3>
+                    
+                    <div class="photo-strip">
+                        <div class="photo-item" onclick="openLightbox('assets/images/gallery/photography/beach/beach-1.jpeg', 'Coastal Study 1', '')">
+                            <img src="assets/images/gallery/photography/beach/beach-1.jpeg" alt="Coastal Study 1" loading="lazy">
+                        </div>
+                        <div class="photo-item" onclick="openLightbox('assets/images/gallery/photography/beach/beach-2.jpeg', 'Coastal Study 2', '')">
+                            <img src="assets/images/gallery/photography/beach/beach-2.jpeg" alt="Coastal Study 2" loading="lazy">
+                        </div>
+                        <div class="photo-item" onclick="openLightbox('assets/images/gallery/photography/beach/beach-3.jpeg', 'Coastal Study 3', '')">
+                            <img src="assets/images/gallery/photography/beach/beach-3.jpeg" alt="Coastal Study 3" loading="lazy">
+                        </div>
+                        <div class="photo-item" onclick="openLightbox('assets/images/gallery/photography/beach/beach-4.jpeg', 'Coastal Study 4', '')">
+                            <img src="assets/images/gallery/photography/beach/beach-4.jpeg" alt="Coastal Study 4" loading="lazy">
+                        </div>
+                        <div class="photo-item" onclick="openLightbox('assets/images/gallery/photography/beach/beach-5.jpeg', 'Coastal Study 5', '')">
+                            <img src="assets/images/gallery/photography/beach/beach-5.jpeg" alt="Coastal Study 5" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Natural Photography -->
+                <div class="photography-category">
+                    <h3><i class="fas fa-leaf"></i> Natural Forms</h3>
+                
+                    <div class="nature-grid">
+                        <div class="nature-item wide" onclick="openLightbox('assets/images/gallery/photography/natural/natural-1.jpeg', 'Natural Form Study 1', '')">
+                            <img src="assets/images/gallery/photography/natural/natural-1.jpeg" alt="Natural Form Study 1" loading="lazy">
+                        </div>
+                        <div class="nature-item" onclick="openLightbox('assets/images/gallery/photography/natural/natural-2.jpeg', 'Natural Form Study 2', '')">
+                            <img src="assets/images/gallery/photography/natural/natural-2.jpeg" alt="Natural Form Study 2" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Structural Photography -->
+                <div class="photography-category">
+                    <h3><i class="fas fa-building"></i> Architectural Dialogue</h3>
+                    
+                    <div class="architecture-grid">
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-1.jpeg', '')">
+                            <img src="assets/images/gallery/photography/structural/structural-1.jpeg" alt="Architectural Study 1" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-2.jpeg', '')">
+                            <img src="assets/images/gallery/photography/structural/structural-2.jpeg" alt="Architectural Study 2" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-3.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/structural/structural-3.jpeg" alt="Architectural Study 3" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-4.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/structural/structural-4.jpeg" alt="Architectural Study 4" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-5.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/structural/structural-5.jpeg" alt="Architectural Study 5" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-6.jpeg', '')">
+                            <img src="assets/images/gallery/photography/structural/structural-6.jpeg" alt="Architectural Study 6" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-7.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/structural/structural-7.jpeg" alt="Architectural Study 7" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-8.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/structural/structural-8.jpeg" alt="Architectural Study 8" loading="lazy">
+                        </div>
+                        <div class="arch-item" onclick="openLightbox('assets/images/gallery/photography/structural/structural-9.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/structural/structural-9.jpeg" alt="Architectural Study 9" loading="lazy">
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+                <!-- Sky Photography -->
+                <div class="photography-category">
+                    <h3><i class="fas fa-cloud"></i> Atmospheric Observations</h3>
+                    
+                    <div class="sky-carousel">
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-1.jpeg', '')">
+                            <img src="assets/images/gallery/photography/sky/sky-1.jpeg" alt="Atmospheric Study 1" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-2.jpeg', '')">
+                            <img src="assets/images/gallery/photography/sky/sky-2.jpeg" alt="Atmospheric Study 2" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-3.jpeg', '')">
+                            <img src="assets/images/gallery/photography/sky/sky-3.jpeg" alt="Atmospheric Study 3" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-4.jpeg', '')">
+                            <img src="assets/images/gallery/photography/sky/sky-4.jpeg" alt="Atmospheric Study 4" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-5.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-5.jpeg" alt="Atmospheric Study 5" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-6.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-6.jpeg" alt="Atmospheric Study 6" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-7.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-7.jpeg" alt="Atmospheric Study 7" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-8.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-8.jpeg" alt="Atmospheric Study 8" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-9.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-9.jpeg" alt="Atmospheric Study 9" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-10.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-10.jpeg" alt="Atmospheric Study 10" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-11.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/sky/sky-11.jpeg" alt="Atmospheric Study 11" loading="lazy">
+                        </div>
+                        <div class="sky-item" onclick="openLightbox('assets/images/gallery/photography/sky/sky-12.jpeg', '')">
+                            <img src="assets/images/gallery/photography/sky/sky-12.jpeg" alt="Atmospheric Study 12" loading="lazy">
+                        </div>
+                    </div>
+                  
+                </div>
+
+                <!-- Train Photography -->
+                <div class="photography-category">
+                    <h3><i class="fas fa-train"></i> Train and Sky</h3>
+                  
+                    
+                    <div class="train-track">
+                        <div class="train-item" onclick="openLightbox('assets/images/gallery/photography/train/train-1.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/train/train-1.jpeg" alt="Rail Study 1" loading="lazy">
+                        </div>
+                        <div class="train-item" onclick="openLightbox('assets/images/gallery/photography/train/train-2.jpeg','')">
+                            <img src="assets/images/gallery/photography/train/train-2.jpeg" alt="Rail Study 2" loading="lazy">
+                        </div>
+                        <div class="train-item" onclick="openLightbox('assets/images/gallery/photography/train/train-3.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/train/train-3.jpeg" alt="Rail Study 3" loading="lazy">
+                        </div>
+                        <div class="train-item" onclick="openLightbox('assets/images/gallery/photography/train/train-4.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/train/train-4.jpeg" alt="Rail Study 4" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Random Photography -->
+                <div class="photography-category">
+                    <h3><i class="fas fa-random"></i> Serendipitous Frames</h3>
+                   
+                    <div class="random-mosaic">
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-1.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-1.jpeg" alt="Urban Observation 1" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-2.jpeg', '')">
+                            <img src="assets/images/gallery/photography/random/random-2.jpeg" alt="Urban Observation 2" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-3.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-3.jpeg" alt="Urban Observation 3" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-4.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-4.jpeg" alt="Urban Observation 4" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-5.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-5.jpeg" alt="Urban Observation 5" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-6.jpeg', '')">
+                            <img src="assets/images/gallery/photography/random/random-6.jpeg" alt="Urban Observation 6" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-7.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-7.jpeg" alt="Urban Observation 7" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-8.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-8.jpeg" alt="Urban Observation 8" loading="lazy">
+                        </div>
+                         <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-9.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-9.jpeg" alt="Urban Observation 9" loading="lazy">
+                        </div>
+                        <div class="random-item" onclick="openLightbox('assets/images/gallery/photography/random/random-10.jpeg',  '')">
+                            <img src="assets/images/gallery/photography/random/random-10.jpeg" alt="Urban Observation 10" loading="lazy">
+                        </div>
+                    </div>
+                  
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer (Existing - Unchanged) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Ragib Hasan</h3>
+                    <p>Undergraduate CSE Student | Researcher | Academic Enthusiast</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="academic.html">Academic Results</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ragib-hasan-828316317" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/RagibH" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Ragib Hasan. All rights reserved.</p>
+                <p>Designed for academic and research purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Lightbox functionality
+        let currentLightboxImages = [];
+        let currentLightboxIndex = 0;
+
+        function openLightbox(imageSrc, title, description) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = lightbox.querySelector('.lightbox-image');
+            const lightboxTitle = lightbox.querySelector('.lightbox-title');
+            const lightboxDescription = lightbox.querySelector('.lightbox-description');
+            const lightboxCounter = lightbox.querySelector('.lightbox-counter');
+            
+            // Set current image
+            lightboxImage.src = imageSrc;
+            lightboxTitle.textContent = title;
+            lightboxDescription.textContent = description;
+            
+            // Get all images in current section
+            const section = event.target.closest('.gallery-section, .photography-category');
+            const images = section.querySelectorAll('img[src^="assets/images/"]');
+            currentLightboxImages = Array.from(images).map(img => ({
+                src: img.src,
+                alt: img.alt,
+                title: img.closest('.masonry-item, .research-card, .certificate-card, .photo-item, .nature-item, .arch-item, .sky-item, .train-item, .random-item')?.querySelector('h3')?.textContent || img.alt
+            }));
+            
+            currentLightboxIndex = currentLightboxImages.findIndex(img => img.src.includes(imageSrc.split('/').pop()));
+            
+            // Update counter
+            lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${currentLightboxImages.length}`;
+            
+            // Show lightbox
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Add event listeners for navigation
+            lightbox.querySelector('.prev').addEventListener('click', navigateLightbox.bind(null, -1));
+            lightbox.querySelector('.next').addEventListener('click', navigateLightbox.bind(null, 1));
+        }
+
+        function navigateLightbox(direction) {
+            currentLightboxIndex += direction;
+            
+            if (currentLightboxIndex < 0) {
+                currentLightboxIndex = currentLightboxImages.length - 1;
+            } else if (currentLightboxIndex >= currentLightboxImages.length) {
+                currentLightboxIndex = 0;
+            }
+            
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = lightbox.querySelector('.lightbox-image');
+            const lightboxTitle = lightbox.querySelector('.lightbox-title');
+            const lightboxDescription = lightbox.querySelector('.lightbox-description');
+            const lightboxCounter = lightbox.querySelector('.lightbox-counter');
+            
+            lightboxImage.src = currentLightboxImages[currentLightboxIndex].src;
+            lightboxTitle.textContent = currentLightboxImages[currentLightboxIndex].title;
+            lightboxDescription.textContent = currentLightboxImages[currentLightboxIndex].description || '';
+            lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${currentLightboxImages.length}`;
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            
+            // Remove event listeners
+            lightbox.querySelector('.prev').removeEventListener('click', navigateLightbox.bind(null, -1));
+            lightbox.querySelector('.next').removeEventListener('click', navigateLightbox.bind(null, 1));
+        }
+
+        // Initialize lightbox
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightbox = document.getElementById('lightbox');
+            const closeBtn = lightbox.querySelector('.lightbox-close');
+            
+            // Close lightbox events
+            closeBtn.addEventListener('click', closeLightbox);
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (lightbox.classList.contains('active')) {
+                    if (e.key === 'Escape') closeLightbox();
+                    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+                    if (e.key === 'ArrowRight') navigateLightbox(1);
+                }
+            });
+            
+            // Set current year
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Scroll animations
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe sections for fade-in
+            document.querySelectorAll('.gallery-section').forEach(section => {
+                observer.observe(section);
+            });
+        });
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('.gallery-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <style>
+        /* Gallery Page Specific Styles */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #1a2530 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .page-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Gallery Navigation */
+        .gallery-navigation {
+            background: white;
+            border-bottom: 1px solid var(--light-gray);
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .gallery-nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            gap: 2rem;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            color: var(--gray-color);
+            text-decoration: none;
+            transition: var(--transition);
+            border-radius: var(--border-radius);
+        }
+
+        .nav-item i {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-item span {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            color: var(--secondary-color);
+            background: rgba(52, 152, 219, 0.1);
+        }
+
+        /* Main Content */
+        .gallery-main {
+            padding: 3rem 0;
+            background: #f8f9fa;
+        }
+
+        .gallery-section {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .gallery-section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            gap: 1.5rem;
+        }
+
+        .section-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .section-title-content h2 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-subtitle {
+            color: var(--secondary-color);
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        .section-description {
+            max-width: 800px;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+            color: var(--gray-color);
+            font-size: 1.05rem;
+        }
+
+        /* Masonry Grid for Conference */
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-auto-rows: 200px;
+            gap: 1.5rem;
+        }
+
+        .masonry-item {
+            position: relative;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .masonry-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .masonry-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .masonry-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .masonry-item.wide {
+            grid-column: span 8;
+        }
+
+        .masonry-item.tall {
+            grid-row: span 2;
+            grid-column: span 4;
+        }
+
+        .masonry-item:not(.wide):not(.tall) {
+            grid-column: span 4;
+        }
+
+        .image-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 1.5rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .masonry-item:hover .image-overlay {
+            transform: translateY(0);
+        }
+
+        .image-overlay h3 {
+            margin: 0 0 0.3rem 0;
+            font-size: 1.1rem;
+        }
+
+        .image-overlay p {
+            margin: 0;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Research Grid */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .research-card {
+            background: var(--light-gray);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .research-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .research-image {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .research-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .research-card:hover .research-image img {
+            transform: scale(1.05);
+        }
+
+        .research-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .research-card:hover .research-overlay {
+            opacity: 1;
+        }
+
+        .research-overlay i {
+            color: white;
+            font-size: 2rem;
+        }
+
+        .research-info {
+            padding: 1.5rem;
+        }
+
+        .research-info h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--primary-color);
+        }
+
+        .research-info p {
+            margin: 0;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+
+        /* Certificates Grid */
+        .certificates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .certificate-card {
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .certificate-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .certificate-frame {
+            position: relative;
+            height: 220px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+
+        .certificate-frame img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .certificate-icon {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+        }
+
+        .certificate-info {
+            padding: 1.5rem;
+            border-top: 1px solid var(--light-gray);
+        }
+
+        .certificate-info h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--primary-color);
+        }
+
+        .certificate-info p {
+            margin: 0;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+
+        /* Medals Display */
+        .medals-display {
+            display: flex;
+            justify-content: center;
+        }
+
+        .medal-showcase {
+            max-width: 500px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .medal-container {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .medal-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .medal-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: var(--border-radius);
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .medal-showcase:hover .medal-glow {
+            opacity: 1;
+        }
+
+        .medal-info h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--primary-color);
+        }
+
+        .medal-info p {
+            margin: 0 0 1rem 0;
+            color: var(--gray-color);
+        }
+
+        .medal-count {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--light-gray);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        /* Photography Categories */
+        .photography-category {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .photography-category:last-child {
+            border-bottom: none;
+        }
+
+        .photography-category h3 {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .photography-category > p {
+            color: var(--gray-color);
+            margin-bottom: 1.5rem;
+            max-width: 600px;
+        }
+
+        .collection-note {
+            text-align: center;
+            color: var(--gray-color);
+            font-style: italic;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        /* Photo Strip (Beach) */
+        .photo-strip {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            padding: 1rem 0;
+            scrollbar-width: thin;
+        }
+
+        .photo-item {
+            flex: 0 0 200px;
+            height: 150px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .photo-item:hover {
+            transform: scale(1.05);
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Nature Grid */
+        .nature-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .nature-item {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .nature-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .nature-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .nature-item.wide {
+            grid-column: 1;
+        }
+
+        /* Architecture Grid */
+        .architecture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .arch-item {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            height: 180px;
+        }
+
+        .arch-item:hover {
+            transform: scale(1.05);
+        }
+
+        .arch-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Sky Carousel */
+        .sky-carousel {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            padding: 1rem 0;
+        }
+
+        .sky-item {
+            flex: 0 0 250px;
+            height: 180px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .sky-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .sky-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Train Track */
+        .train-track {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .train-item {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            height: 150px;
+        }
+
+        .train-item:hover {
+            transform: scale(1.05);
+        }
+
+        .train-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Random Mosaic */
+        .random-mosaic {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .random-item {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            height: 120px;
+        }
+
+        .random-item:hover {
+            transform: scale(1.05);
+        }
+
+        .random-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .lightbox.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+
+        .lightbox-image-container {
+            max-height: 70vh;
+            overflow: hidden;
+        }
+
+        .lightbox-image {
+            width: 100%;
+            height: auto;
+            max-height: 70vh;
+            object-fit: contain;
+        }
+
+        .lightbox-info {
+            padding: 2rem;
+            background: white;
+        }
+
+        .lightbox-title {
+            margin: 0 0 1rem 0;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+
+        .lightbox-description {
+            margin: 0 0 1rem 0;
+            color: var(--gray-color);
+            line-height: 1.6;
+        }
+
+        .lightbox-counter {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: background 0.3s ease;
+        }
+
+        .lightbox-close:hover {
+            background: rgba(0,0,0,0.7);
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: background 0.3s ease;
+        }
+
+        .lightbox-nav:hover {
+            background: rgba(0,0,0,0.7);
+        }
+
+        .lightbox-nav.prev {
+            left: 1rem;
+        }
+
+        .lightbox-nav.next {
+            right: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .masonry-grid {
+                grid-template-columns: repeat(8, 1fr);
+            }
+            
+            .masonry-item.wide {
+                grid-column: span 6;
+            }
+            
+            .masonry-item.tall {
+                grid-column: span 2;
+            }
+            
+            .masonry-item:not(.wide):not(.tall) {
+                grid-column: span 4;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .gallery-nav {
+                gap: 1rem;
+                overflow-x: auto;
+                justify-content: flex-start;
+                padding: 1rem;
+            }
+            
+            .nav-item {
+                flex: 0 0 auto;
+            }
+            
+            .masonry-grid {
+                grid-template-columns: 1fr;
+                grid-auto-rows: auto;
+            }
+            
+            .masonry-item {
+                grid-column: 1 !important;
+                grid-row: auto !important;
+                height: 250px;
+            }
+            
+            .nature-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .gallery-section {
+                padding: 1.5rem;
+            }
+            
+            .section-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            
+            .page-header p {
+                font-size: 1rem;
+            }
+            
+            .certificates-grid,
+            .research-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .photo-strip,
+            .sky-carousel {
+                gap: 0.5rem;
+            }
+            
+            .photo-item {
+                flex: 0 0 150px;
+                height: 120px;
+            }
+            
+            .sky-item {
+                flex: 0 0 200px;
+                height: 150px;
+            }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--light-gray);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--secondary-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-color);
+        }
+    </style>
+</body>
+</html>
